@@ -131,6 +131,16 @@ html {
 
 /* Sidebar Menu */
 
+#resume-id {
+    color:rgb(255, 255, 255);
+    text-decoration: underline;
+    transition: all 300ms;
+}
+
+#resume-id:hover {
+    color: rgb(130, 215, 255);
+}
+
 .menu .image {
     margin-top: 60px;
 }
@@ -468,6 +478,17 @@ button:hover {
 
 
 /* My Work */
+
+.live-links {
+    background-color: #a43f49;
+    padding: 10px 8px 11px 8px;
+    border-radius: 5px;
+    color: white;
+}
+
+.live-links:hover {
+    color: white;
+}
 
 section.my-work .section-heading {
     text-align: center;
